@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>git</title>
+    <title>Apuntes de git</title>
 </head>
 <body>
     <header>
         <h1>Curso git</h1>
-        <h3>Impartido por: moredev</h3>
+        <h3>Impartido por: P&iacute;ldoras Inform&aacute;ticas</h3>
     </header>
     <nav>
         <ul>
@@ -16,7 +16,52 @@
         </ul>
     </nav>
     <main>
+        <section>
+            <h2>&iquest;Qu&eacute; es Git&#63;</h2>
+            <p>&ldquo;Git&rdquo; es un sistema de control de versiones distribuido, es decir, permite crear imagenes o instant&aacute;neas de un archivo &oacute; una serie de archivos por una o m&aacute;s personas.</p>
+            <h2>&iquest;C&oacute;mo funciona&quest;</h2>
+            <p>&ldquo;Git&rdquo; crea instantaneas con un c&oacute;digo y una descripci&oacute;n dada por nosotros.</p>
+            <p>Ejemplo:
+                <br> <span class="ejempCodigParrafo">8745sdfd &ldquo;Inicio&rdquo;</span><br> <span class="codEjemplo">ssuy76so &ldquo;Agregamos T&iacute;tulo&rdquo;</span>
+            </p>
+            <p>La funci&oacute;n principal de &ldquo;git&rdquo; es revertir el archivo actual a un archivo del hist&oacute;rico que se haya creado bajo la supervisi&oacute;n de &ldquo;git&rdquo;.</p>
+            <p>&ldquo;Git&rdquo; puede tomar una instant&aacute;nea de una rama de archivos de forma que si queremos volver a una versi&oacute;n especial, donde por ejemplo, todo funcionaba y para que funcione se deban restaurar n cantidad de archivos o documentos.</p>
+        </section>
+        <section>
+            <h2>creando repositorios</h2>
+            <ul>
+            <h3>comandos:</h3>
 
+                <li>
+                    <h4>git init</h4>
+                    <p>Comando que se utiliya al comenzar un proyecto, se inicializa el seguimiento de un directorio, aunque aun no se ha determinado que archivo de ese directorio ser&aacute; seguido para versionar.</p>
+                    <p>Al ejecutarlo &ldquo;git&rdquo; crear&aacute; dos &aacute;reas donde ir&aacute; almacenando las versiones de los documentos modificados.</p>
+                    <p>Las &aacute;reas son:</p>
+                    <ul>
+                        <li>&ldquo;staging area&rdquo; (&aacute;rea de ensayo)</li>
+                        <li>Repositorio local</li>
+                    </ul>
+                    <figure><img src="images/cicloRepositorio.png" alt="Ciclo en las &aacute;reas de trabajo, ensayo y repositorio local en Git"></figure>
+                    <p>Existen varias formas de iniciar un directorio en &ldquo;git&rdquo;</p>
+                    <ol>
+                        <li>Dentro de la carpeta donde est&aacute; el archivo que queremos supervisar, hacemos clic derecho del rat&oacute;n &rarr; seleccionamos &ldquo;Open Git bash here&rdquo;.  </li>
+                        <li>Usando el comando &ldquo;<span class="ejempCodigParrafo">git init</span>&rdquo;</li>
+                    </ol>
+                </li>
+                <li>
+                    <h4>git add [file]</h4>
+                    <p>Comando que indica a &ldquo;git&rdquo; el archivo de un documento del directorio inicializado anteriormente, &ldquo;git&rdquo; guardar&aacute; el estado del archivo en preparaci&oacute;n para realizar un commit.</p>
+                </li>
+                <li>
+                    <h4>git commit -m [&ldquo;descripci&oacute;n de la versi&oacute;n]</h4>
+                    <p>Registra los cambios del archivo premanentemente en  el historial de versiones.</p>
+                </li>
+                <li>
+                    <h4>git status -s</h4>
+                    <p>Nos indicar&aacute; un listado de los archivos y/o directorios nuevos. Si nos aparece un par de <span class="rojoGit">&quest;&quest;</span></p>
+                </li>
+            </ul>
+        </section>
     </main>
 </body>
 </html>
