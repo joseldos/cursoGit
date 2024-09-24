@@ -3,3 +3,22 @@
 .rojoGit: clase para el código ejemplo de git cuando nos indica de color rojo que algún archivo no están en seguimiento o editados. 
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+    /*background-color: aliceblue;*/
+    font-family: "Inria Sans", sans-serif;
+}
+
+header{
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+
